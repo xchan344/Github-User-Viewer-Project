@@ -1,9 +1,9 @@
-first feature
+second feature
 
-this first feature shows the clickable url of the searched account.
+this second feature shows the location of the user.
 
-it is applied by assigning a constant and values for the html url, as shown below.
-const userHTMLUrl = user.html_url ? `<p>${user.html_url}</p>` : "";
+it is applied by assigning a constant and values for the location, as shown below.
+const userLocation = user.location ? `<p>${user.location}</p>` : "";
 
-then, using it amd assigning its location, as shown below.
-<p><strong>Url: </strong><a style="color:blue" href="${user.html_url}">${user.html_url}</a></p>
+then, using it and assigning its location, as shown below.
+<p><strong>Location: </strong>${user.location}
