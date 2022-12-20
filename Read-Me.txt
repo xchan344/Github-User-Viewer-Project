@@ -1,0 +1,9 @@
+first feature
+
+this first feature shows the clickable url of the searched account.
+
+it is applied by assigning a constant and values for the html url, as shown below.
+const userHTMLUrl = user.html_url ? `<p>${user.html_url}</p>` : "";
+
+then, using it amd assigning its location, as shown below.
+<p><strong>Url: </strong><a style="color:blue" href="${user.html_url}">${user.html_url}</a></p>
